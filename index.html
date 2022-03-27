@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeFlix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            PrimeFlix
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="active">Início</a>
+                    </li>
+                    <li>
+                        <a href="">Filmes</a>
+                    </li>
+                    <li>
+                        <a href="">Séries</a>
+                    </li>
+                    <li>
+                        <a href="">Animes</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner"> 
+        <div class="controls">
+            <button class="left"><</button>
+            <button class="right">></button>
+        </div>
+        <div class="banner-slide">
+            <div class="banner-item first"></div>
+            <div class="banner-item second">The Expanse</div>
+            <div class="banner-item third">Into The Badlands</div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        
+        <!------Catálogo de Filmes------>
+        <div>
+            <h2>Filmes</h2>
+        </div>
+        <div class="content movies">
+            
+        </div>
+        <div class="movies-buttons">
+                
+        </div>
+        <!------------------------------>
+
+
+        <!------Catálogo de Séries------>
+        <div>
+            <h2>Séries</h2>
+        </div>
+        <div class="content series">
+            
+        </div>
+        <div class="series-buttons">
+                
+        </div>
+        <!------------------------------>
+
+
+        <!------Catálogo de Animes------>
+        <div>
+            <h2>Animes</h2>
+        </div>
+        <div class="content animes">
+            
+        </div>
+        <div class="animes-buttons">
+                
+        </div>
+        <!------------------------------>
+            
+    </section>
+
+    <div class="modal">
+        <div class="modal-content">
+
+            <div class="info">
+                <h3 class="year"></h3>
+                <h3 class="seasons duration episodes"></h3>
+                <h3 class="genre"></h3>
+                <h3 class="casting characters"></h3>
+            </div>
+
+            <iframe 
+            width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        
+            <button class="close">Close</button>
+
+        </div>
+    </div>
+
+    <footer>
+       <h4>Criado por Christian</h4>
+    </footer>
+    
+    <script src="dados/filmes.js"></script>
+    <script src="dados/series.js"></script>
+    <script src="dados/animes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

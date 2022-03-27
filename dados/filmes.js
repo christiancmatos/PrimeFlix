@@ -1,0 +1,167 @@
+filmes = [
+    {
+        id: 1, 
+        nome: 'Motoqueiro Fantasma 2 - Espírito de Vingança', 
+        image: 'https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/2/41317/original/motoqueiro-fantasma-06.jpg',
+        year: 2011,
+        duration: '1h45min',
+        genre: 'Ação, Fantasia, Suspense',
+        casting: 'Nicolas Cage, Ciarán Hinds, Violante Placido',
+        sinopse: 'Depois de um período recluso na Europa, Johnny Blaze embarca em uma nova missão para se livrar da maldição. Desta vez, ele precisa impedir que o próprio demônio encarnado sequestre um garoto de dez anos que pode ser a única esperança da humanidade contra as trevas.',
+        trailer: 'https://www.youtube.com/embed/eH9h_YzTyyY'
+    },
+    {
+        id: 2, 
+        nome: 'Homem de Ferro', 
+        image: 'https://br.web.img3.acsta.net/r_1280_720/newsv7/19/02/08/16/58/1140437.jpg',
+        year: 2008,
+        duration: '2h06min',
+        genre: 'Ação, Ficção Científica',
+        casting: 'Robert Downey Jr., Terrence Howard, Gwyneth Paltrow',
+        sinopse: 'Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora. Em vez disso, ele constrói uma armadura blindada e enfrenta seus sequestradores. Ao voltar para os EUA, Stark aprimora a armadura e a utiliza para combater o crime.',
+        trailer: 'https://www.youtube.com/embed/8ugaeA-nMTc'
+    },
+    {
+        id: 3, 
+        nome: 'Vingadores', 
+        image: 'https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/08/legiao_m2rhFtcC3Mv5.jpg.jpeg',
+        year: 2012,
+        duration: '2h36min',
+        genre: 'Ação, Aventura, Ficção Científica',
+        casting: 'Robert Downey Jr., Chris Evans, Mark Ruffalo',
+        sinopse: 'Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes.',
+        trailer: 'https://www.youtube.com/embed/6Y6zOSn8ff4'
+    },
+    {
+        id: 4, 
+        nome: 'Interestelar', 
+        image: 'https://tuporem.org.br/wp-content/uploads/2014/12/interestelar.jpg',
+        year: 2014,
+        duration: '2h49min',
+        genre: 'Ficção Científica, Drama',
+        casting: 'Matthew McConaughey, Anne Hathaway, Michael Caine',
+        sinopse: 'As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.',
+        trailer: 'https://www.youtube.com/embed/BYUZhddDbdc'
+    },
+    {
+        id: 5, 
+        nome: 'Os Escolhidos', 
+        image: 'https://www.getro.com.br/wp-content/uploads/2013/08/dskies-1.jpg',
+        year: 2013,
+        duration: '1h37min',
+        genre: 'Ficção Científica, Suspense',
+        casting: 'Keri Russell, Josh Hamilton, Dakota Goyo',
+        sinopse: 'Uma sequência de acontecimentos estranhos passa a atormentar a família Barrett, que mora em uma cidade tranquila nos Estados Unidos. Lacy, a mãe, busca explicações para os bizarros fenômenos que perturbam seu lar.',
+        trailer: 'https://www.youtube.com/embed/fbXWTWRUSqo'
+    },
+    {
+        id: 6, 
+        nome: 'O Lobo de Wall Street', 
+        image: 'https://igd-wp-uploads-pluginaws.s3.amazonaws.com/wp-content/uploads/2016/06/10155855/5-Sacadas-de-O-Lobo-de-Wall-Street-para-te-Levar-ao-Topo.jpg',
+        year: 2013,
+        duration: '2h59min',
+        genre: 'Biografia, Drama, Comédia',
+        casting: 'Leonardo DiCaprio, Jonah Hill, Margot Robbie',
+        sinopse: 'Jordan Belfort é um ambicioso corretor da bolsa de valores que cria um verdadeiro império, enriquecendo de forma rápida, porém ilegal. Ele e seus amigos mergulham em um mundo de excessos, mas seus métodos ilícitos despertam a atenção da polícia.',
+        trailer: 'https://www.youtube.com/embed/sSbxgk5IEMU'
+    },
+    {
+        id: 7, 
+        nome: 'Independence Day', 
+        image: 'https://rollingstone.uol.com.br/media/_versions/independence-day-reprod-fox-cortada_widelg.jpg',
+        year: 1996,
+        duration: '2h25min',
+        genre: 'Ficção científica, Ação, Suspense',
+        casting: 'Will Smith, Bill Pullman, Jeff Goldblum',
+        sinopse: 'Uma aventura épica mostra um fenômeno em todo o mundo: céus em chamas e o terror nas maiores cidades do planeta. Com ataques cada vez mais fulminantes e uma magnitude sem igual, a aniquilação da raça humana pode estar para acontecer no final de semana do feriado de 4 de julho. Um improvável grupo unido pelo destino tenta evitar este fim.',
+        trailer: 'https://www.youtube.com/embed/_dsG9MeQSlo'
+    },
+    {
+        id: 8, 
+        nome: 'Invocação do Mal', 
+        image: 'https://f001.backblazeb2.com/file/papocine/2013/09/20180906-1200.jpg',
+        year: 2013,
+        duration: '1h50min',
+        genre: 'Terror',
+        casting: 'Vera Farmiga, Patrick Wilson, Ron Livingston',
+        sinopse: 'Os mundialmente renomados investigadores paranormais Ed e Lorraine Warren são chamados para ajudar uma família aterrorizada por uma presença obscura em uma fazenda isolada. Forçados a confrontar uma poderosa entidade demoníaca, se veem presos no caso mais terrível de suas vidas.',
+        trailer: 'https://www.youtube.com/embed/GQrrXceHn2E'
+    },
+    {
+        id: 9, 
+        nome: 'A Guerra do Amanhã', 
+        image: 'https://1.bp.blogspot.com/-fU0cnQIox1c/YN8rnYKMfJI/AAAAAAAAJW4/fGkN9jerKtU-DXEXwbI21OLodcTF1rT1wCLcBGAsYHQ/s1200/A%2BGUERRA%2BDO%2BAMANH%25C3%2583.jpg',
+        year: 2021,
+        duration: '2h20min',
+        genre: 'Ficção Científica, Ação, Suspense',
+        casting: 'Chris Pratt, Yvonne Strahovski, J.K. Simmons',
+        sinopse: 'Para garantir a sobrevivência dos humanos, soldados e civis do presente são transportados para o futuro e se juntam à luta, entre eles Dan Forester (Chris Pratt), um pai de família determinado a salvar o mundo para sua filha.',
+        trailer: 'https://www.youtube.com/embed/hqwQxLIMA-0'
+    },
+    {
+        id: 10, 
+        nome: 'Thor: Ragnarok', 
+        image: 'https://c7nema.net/wp-content/uploads/2017/10/Thor-Ragnarok.jpg',
+        year: 2017,
+        duration: '2h11min',
+        genre: 'Ação, Ficção Científica',
+        casting: 'Chris Hemsworth, Tom Hiddleston, Cate Blanchett',
+        sinopse: 'Em Thor: Ragnarok, Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e impedir o Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela.',
+        trailer: 'https://www.youtube.com/embed/FLv_UB8BdqE'
+    },
+    {
+        id: 11, 
+        nome: 'Duro de Matar 4.0', 
+        image: 'https://observatoriodatv.uol.com.br/wp-content/uploads/2019/05/duro-de-matar-4-0-e1556918896399.jpg',
+        year: 2007,
+        duration: '2h09min',
+        genre: 'Ação, Policial',
+        casting: 'Bruce Willis, Justin Long, Timothy Olyphant',
+        sinopse: 'O detetive John McClane, da cidade de nova York, ensina o que é justiça à moda antiga a uma nova geração de terroristas quando eles promovem um ataque impiedoso, via computador, ameaçando a infra-estrutura dos EUA, podendo literalmente desligar o país inteiro em pleno fim de semana do feriado do Dia da Independência.',
+        trailer: 'https://www.youtube.com/embed/RId8t10wKXE'
+    },
+    {
+        id: 12, 
+        nome: 'Os Bad Boys', 
+        image: 'https://www.planocritico.com/wp-content/uploads/2020/01/bad-boys-plano-cr%C3%ADtico-filme-1995.jpg',
+        year: 1995,
+        duration: '1h59min',
+        genre: 'Ação, Comédia, Policial',
+        casting: 'Martin Lawrence, Will Smith, Tchéky Karyo',
+        sinopse: 'Em Miami, os detetives Mike Lowrey e Marcus Burnett trocam de identidade enquanto investigam assassinatos ligados ao roubo de uma carga de 100 milhões de dólares em heroína, que recentemente confiscaram.',
+        trailer: 'https://www.youtube.com/embed/1B7E8PEvuzs'
+    },
+    {
+        id: 13, 
+        nome: 'A Morte do Demônio', 
+        image: 'https://1.bp.blogspot.com/-dzwtbfEe4mo/UXM3D_EZ7oI/AAAAAAAALak/2SdGTThMedM/s640/A-Morte-do-Demonio-25Fev2013-04.jpg',
+        year: 2013,
+        duration: '1h30min',
+        genre: 'Terror',
+        casting: 'Jane Levy, Shiloh Fernandez, Lou Taylor Pucci',
+        sinopse: 'Mia é uma viciada em drogas que, para vencer seus demônios pessoais, vai com seu irmão David, a namorada do irmão, Natalie, e os amigos de infância Olivia e Eric até uma cabana rústica, que pertence à família. Lá, descobrem que a cabana foi invadida e que o porão parece uma espécie de altar, onde a descoberta de um Livro dos Mortos invoca forças demoníacas.',
+        trailer: 'https://www.youtube.com/embed/JBfub8SbtvU'
+    },
+    {
+        id: 14, 
+        nome: 'Linha de Frente', 
+        image: 'https://image.tmdb.org/t/p/original//39XzlXJRGMdHGGtHJ3VlCRfRRin.jpg',
+        year: 2013,
+        duration: '1h40min',
+        genre: 'Ação, Suspense',
+        casting: 'Jason Statham, James Franco, Winona Ryder',
+        sinopse: 'O ex-agente do Departamento de Combate ao Narcotráfico, Phil Broker, decide sair de cena com sua filha para tentar fugir de seu passado conturbado. No entanto, a vida de Broker vira de cabeça para baixo quando ele descobre que o submundo das drogas e a violência assombram a pequena cidade onde ele agora vive, forçando o ex-agente a voltar à ativa para salvar sua família e a cidade.',
+        trailer: 'https://www.youtube.com/embed/tjSOj8b804U'
+    },
+    {
+        id: 15, 
+        nome: 'Os Outros Caras', 
+        image: 'https://www.cinemadebuteco.com.br/wp-content/uploads/2011/10/1281134442_os_outros_caras18.jpg',
+        year: 2010,
+        duration: '1h47min',
+        genre: 'Comédia , Ação',
+        casting: 'Mark Wahlberg, Will Ferrell, Samuel L. Jackson',
+        sinopse: 'Os detetives da polícia de Nova York, Gamble e Hoitz, não fazem manchetes com o seu trabalho diário atrás de uma escrivaninha. Gamble aprecia a sua função, mas Hoitz está ansioso para voltar para as ruas. Quando um caso aparentemente insignificante acaba se revelando um grande negócio, os dois têm a oportunidade de finalmente provar a seus companheiros que eles têm capacidade.',
+        trailer: 'https://www.youtube.com/embed/roWoZdupUZM'
+    },
+]

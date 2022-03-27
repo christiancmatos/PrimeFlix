@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0f171e;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 30px;
+    background-color: #1b2530;
+}
+
+.logo {
+    color: #FFF;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: #FFF;
+}
+
+.active {
+    border-bottom: 1px solid #FFF;
+    color: #FFF !important;
+}
+
+.banner {
+    height: 350px;
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-slide {
+    height: inherit;
+    display: flex;
+    transition: all ease 0.8s;
+}
+
+.banner-item {
+    width: 1100px;
+    height: inherit;
+}
+
+.banner-item.first { 
+    background: url('images/banner_img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-item.second { 
+    background: url('images/banner_img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.banner-item.third { 
+    background: url('images/banner_img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-shadow: 0px 1px 1px #333;
+}
+
+.controls {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    width: 50px;
+    font-size: 50px;
+    background-color: rgba(0,0,0,0.3);
+    color: #FFF;
+    cursor: pointer;
+}
+
+h2 {
+    color: #FFF;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: -30px;
+}
+
+.content.movies,
+.content.series,
+.content.animes {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    overflow: hidden;
+    padding: 0 20px;
+    scroll-behavior: smooth;
+    margin-bottom: -230px;
+    height: 500px;
+}
+
+.movie-content,
+.serie-content,
+.anime-content {
+    height: 400px;
+    min-width: 300px;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 0 10px;
+    transition: 0.1s;
+}
+
+.movie,
+.serie,
+.anime {
+    display: block;
+    height: 200px;
+    max-width: 300px;
+}
+
+.movie img,
+.serie img,
+.anime img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie:hover,
+.serie:hover,
+.anime:hover {
+    cursor: pointer;
+}
+
+.movie-sinopse,
+.serie-sinopse,
+.anime-sinopse {
+    display: none;
+    height: 200px;
+    background-color: #0f171e;
+    color: #fff;
+    cursor: default;
+}
+
+.movie-sinopse .title,
+.serie-sinopse .title,
+.anime-sinopse .title {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.movie-sinopse .description,
+.serie-sinopse .description,
+.anime-sinopse .description {
+    padding: 0 5px 5px 5px;
+    font-size: 14px;
+}
+
+.movies-buttons button,
+.series-buttons button,
+.animes-buttons button {
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.7s;
+    color: #FFF;
+    box-shadow: inset 0 0 100px 0px rgba(0, 0, 0, 0.3);
+}
+
+.movies-buttons button:hover,
+.series-buttons button:hover, 
+.animes-buttons button:hover {
+    box-shadow: inset 0 0 100px 0px rgba(0, 0, 0, 0.8);
+}
+
+.movies-btn-left {
+    top: 489px;
+    left: 0;
+}
+
+.movies-btn-right {
+    top: 489px;
+    right: 0;
+}
+
+.series-btn-left {
+    top: 778px;
+    left: 0;
+}
+
+.series-btn-right {
+    top: 778px;
+    right: 0;
+}
+
+.animes-btn-left {
+    top: 1067px;
+    left: 0;
+}
+
+.animes-btn-right {
+    top: 1067px;
+    right: 0;
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px solid #00ffff;
+    background-color: #1b2530;
+}
+
+.info {
+    width: 250px;
+    height: 315px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.info h3 {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+footer {
+    margin-top: 30px;
+    height: 200px;
+    background-color: #1b2530;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1400px) {
+    .banner {
+        width: 1400px;
+        background-color: #00ffff;
+    }
+
+    .banner-slide {
+        height: inherit;
+        background-color: black;
+        display: flex;
+        transition: all ease 0.8s;
+    }
+
+    .banner-item {
+        min-width: 1400px;
+    }
+}
